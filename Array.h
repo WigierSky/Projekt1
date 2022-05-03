@@ -8,6 +8,7 @@ private:
 
 public:
     Array();
+    ~Array();
     void Show_Array();
 
     void Add_Back(int val);

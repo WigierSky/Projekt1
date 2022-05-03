@@ -15,6 +15,12 @@ List::List()
     }
 }
 
+List::~List()
+{
+    delete head;
+    delete tail;
+}
+
 void List::Add_Front(int val)
 {
     Elem_List* swap = head; //nowy element do którego przypisujemy pierwszy element listy (head)

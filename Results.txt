@@ -66,7 +66,7 @@ RBTree_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktur
 
 =============================================================
 
-Liczba elementów w strukturze: 2500
+Liczba elementów w strukturze: 2000
 Ilość wykonań akcji: 1000
 
 Heap_Add (zapełnienie całej struktury):  6350 [µs]

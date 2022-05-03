@@ -6,6 +6,11 @@ Array::Array()
    
 }
 
+Array::~Array()
+{
+    delete[] array;
+}
+
 void Array::resize(int size)
 {
     int *new_array = new int[size]; //nowa tablica
@@ -88,6 +93,12 @@ void Array::Add_Spec(int val, int index)
 
 void Array::Del_Back()
 {
+    if(array_size == 0)
+    {
+        std::cout<<"\nArray is empty!\n";
+        return;
+    }
+
     int size = array_size - 1; //nowy rozmiar
     int *new_array = new int[size]; //nowa tablica
 
@@ -104,6 +115,12 @@ void Array::Del_Back()
 
 void Array::Del_Front()
 {
+    if(array_size == 0)
+    {
+        std::cout<<"\nArray is empty!\n";
+        return;
+    }
+
     int new_size = array_size - 1; //nowy rozmiar
     int *new_array = new int[new_size]; //nowa tablica
 
@@ -121,8 +138,11 @@ void Array::Del_Front()
 void Array::Del_Spec(int index)
 {
     if (index >= array_size)
-        throw std::out_of_range("Deleting element outside of array!"); //sprawdzenie czy miejsce z którego usuwamy element istnieje w tablicy
-    
+    {  
+        std::cout<< "\nDeleting element outside of array!\n"; //sprawdzenie czy miejsce z którego usuwamy element istnieje w tablicy
+        return;
+    }
+
     int new_size = array_size - 1; //nowy rozmiar
     int *new_array = new int[new_size]; //nowa tablica
 

@@ -10,6 +10,7 @@ class List
 
 public:
     List();
+    ~List();
     void Add_Front(int val);
     void Add_Back(int val);
     void Add_Spec(int val, int prev_elem);

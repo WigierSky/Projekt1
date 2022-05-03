@@ -6,6 +6,9 @@ private:
     void resize(int size);
     
 public:
+    Heap();
+    ~Heap();
+
     void Add(int val);
     void Delete(int val);
     bool Find_Value(int val);

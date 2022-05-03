@@ -11,6 +11,12 @@ RBTree::RBTree()
 
 }
 
+RBTree::~RBTree()
+{
+    delete Null_Node;
+    delete root;
+}
+
 void RBTree::Rotate_Left(Node *node) //rotacja w lewo wzgledem podanego elemetu (node)
 {
     Node *new_node = node->right_child; //tymczasowy element, przypisujemy do niego parametry prawego dziecka node'a

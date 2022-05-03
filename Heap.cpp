@@ -5,6 +5,17 @@
 #define Left_Child(parent) (((parent)*2)+1)
 #define Right_Child(parent) (((parent)*2)+2)
 
+
+Heap::Heap()
+{
+
+}
+
+Heap::~Heap()
+{
+    delete[] tab;
+}
+
 void Heap::Add(int val)
 {  
     int pos = tab_size;

@@ -23,6 +23,7 @@ private:
 
 public:
     RBTree();
+    ~RBTree();
     void Add(int val);
     void Delete(int val);
     void Show_Tree();

@@ -4,8 +4,8 @@
 #include "Tests.cpp"
 
 using namespace std;
-int tab_val[20];
-int tab_val_size = 20;
+int tab_val[5];
+int tab_val_size = 5;
 
 void Read_from_file(int tab[])
 {
