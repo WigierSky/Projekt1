@@ -18,8 +18,8 @@ __int64 CounterStart = 0;
 class Tests
 {
 //array to save random numbers, n to save how many elements we use to test and m to save how many times we launch function
-int n = 7500;
-int rands[7500];
+int n = 7000;
+int rands[7000];
 int m = 1000;
 
 
@@ -45,7 +45,7 @@ void StartCounter()
     if(!QueryPerformanceFrequency(&li))
     cout << "QueryPerformanceFrequency failed!\n";
 
-    PCFreq = double(li.QuadPart)/1000000000.0;
+    PCFreq = double(li.QuadPart)/10000000.0;
 
     QueryPerformanceCounter(&li);
     CounterStart = li.QuadPart;
@@ -433,7 +433,10 @@ int RBTree_Delete_Bench()
         {
          container.Add(rands[i]);
         }
-        int rand = Rand_Number(0, n - 1);
+        int rand = Rand_Number(0, n-1);
+
+        std::cout<<rand <<"\n";
+
         StartCounter();
 
          container.Delete(rands[rand]);
@@ -485,8 +488,8 @@ int RBTree_Find_Bench()
 }
 
 void run()
-{
-    cout<<"\nElements: " <<n <<"\n";
+{  
+   cout<<"\nElements: " <<n <<"\n";
 
    cout<<"\nHeap Add: "<<(Heap_Add_Bench()/1000) <<" [ms]";
    cout<<"\nHeap Delete: "<<Heap_Delete_Bench() <<" [ns]";
@@ -513,8 +516,9 @@ void run()
    cout<<"\nList Find Element: " <<List_Find_Bench() <<" [ns]\n";
 
    cout<<"\nRB Tree Add: " <<(RBTree_Add_Bench()/1000) <<" [ns]";
-   cout<<"\nRB Tree Delete: " <<RBTree_Delete_Bench() <<" [ns]";
    cout<<"\nRB Tree Find Element: " <<RBTree_Find_Bench() <<" [ns]";
+
+   cout<<"\nRB Tree Delete: " <<RBTree_Delete_Bench() <<" [ns]";
 
 
 }

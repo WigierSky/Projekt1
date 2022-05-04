@@ -184,8 +184,9 @@ void RBTree::Delete(int val)
            {
                y = y->left_child;
            }
-           y_color = y->color; //zapisujemy wartosc najmniejszego elementu
+           y_color = y->color; //zapisujemy kolor najmniejszego elementu
            x = y->right_child; //do x wpisujemy wartosc prawego dziecka najmniejszego elementu
+
 
            if(y->parent == z)
            {

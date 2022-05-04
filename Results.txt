@@ -1,38 +1,5 @@
 =============================================================
 
-Liczba elementów w strukturze: 500
-Ilość wykonań akcji: 1000
-
-Heap_Add (zapełnienie całej struktury): 397 [µs]
-Heap_Delete (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 2583 [ns]
-Heap_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 515 [ns]
-
-Array_Add_Back (zapełnienie całej struktury): 379 [µs]
-Array_Add_Front (zapełnienie całej struktury): 379 [µs]
-Array_Add_Spec (dodanie pojedyńczego, losowego elementu do zapełnionej struktury): 1181 [ns]
-
-Array_Delete_Back (wyczyszczenie całej struktury): 431 [µs]
-Array_Delete_Front (wyczyszczenie całej struktury): 412 [µs]
-Array_Delete_Spec (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 1181 [ns]
-
-Array_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 868 [ns]
-
-List_Add_Back (zapełnienie całej struktury): 28 [µs]
-List_Add_Front (zapełnienie całej struktury): 27 [µs]
-List_Add_Spec (dodanie pojedyńczego, losowego elementu): 1493 [ns]
-
-List_Delete_Back (wyczyszczenie całej struktury): 11 [µs]
-List_Delete_Front (wyczyszczenie całej struktury): 11 [µs]
-List_Delete_Spec (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 1511 [ns]
-
-List_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 1630 [ns]
-
-RBTree_Add (zapełnienie całej struktury): 70 [µs]
-RBTree_Delete (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 166 [ns]
-RBTree_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 74 [ns]
-
-=============================================================
-
 Liczba elementów w strukturze: 1000
 Ilość wykonań akcji: 1000
 
@@ -66,69 +33,36 @@ RBTree_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktur
 
 =============================================================
 
-Liczba elementów w strukturze: 2000
+Liczba elementów w strukturze: 3000
 Ilość wykonań akcji: 1000
 
-Heap_Add (zapełnienie całej struktury):  6350 [µs]
-Heap_Delete (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 12270 [ns]
-Heap_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 2110 [ns]
+Heap_Add (zapełnienie całej struktury):  7830 [µs]
+Heap_Delete (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 14340 [ns]
+Heap_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 2570 [ns]
 
-Array_Add_Back (zapełnienie całej struktury): 6100 [µs]
-Array_Add_Front (zapełnienie całej struktury): 6150 [µs]
-Array_Add_Spec (dodanie pojedyńczego, losowego elementu do zapełnionej struktury): 5120 [ns]
+Array_Add_Back (zapełnienie całej struktury): 8630 [µs]
+Array_Add_Front (zapełnienie całej struktury): 8750 [µs]
+Array_Add_Spec (dodanie pojedyńczego, losowego elementu do zapełnionej struktury): 6090 [ns]
 
-Array_Delete_Back (wyczyszczenie całej struktury): 6950 [µs]
-Array_Delete_Front (wyczyszczenie całej struktury): 6930 [µs]
-Array_Delete_Spec (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 5500 [ns]
+Array_Delete_Back (wyczyszczenie całej struktury): 9960 [µs]
+Array_Delete_Front (wyczyszczenie całej struktury): 10010 [µs]
+Array_Delete_Spec (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 6490 [ns]
 
-Array_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 4200 [ns]
+Array_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 5020 [ns]
 
-List_Add_Back (zapełnienie całej struktury): 120 [µs]
-List_Add_Front (zapełnienie całej struktury): 120 [µs]
-List_Add_Spec (dodanie pojedyńczego, losowego elementu): 8950 [ns]
+List_Add_Back (zapełnienie całej struktury): 142 [µs]
+List_Add_Front (zapełnienie całej struktury): 140 [µs]
+List_Add_Spec (dodanie pojedyńczego, losowego elementu): 11810 [ns]
 
-List_Delete_Back (wyczyszczenie całej struktury): 60 [µs]
-List_Delete_Front (wyczyszczenie całej struktury): 54 [µs]
-List_Delete_Spec (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 8880 [ns]
+List_Delete_Back (wyczyszczenie całej struktury): 65 [µs]
+List_Delete_Front (wyczyszczenie całej struktury): 67 [µs]
+List_Delete_Spec (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 10840 [ns]
 
-List_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 9680 [ns]
+List_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 10960 [ns]
 
-RBTree_Add (zapełnienie całej struktury): 386 [ns]
-RBTree_Delete (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 231 [ns]
-RBTree_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 130 [ns]
-
-=============================================================
-
-Liczba elementów w strukturze: 3500
-Ilość wykonań akcji: 1000
-
-Heap_Add (zapełnienie całej struktury):  13040 [µs]
-Heap_Delete (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 18510 [ns]
-Heap_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 3080 [ns]
-
-Array_Add_Back (zapełnienie całej struktury): 12210 [µs]
-Array_Add_Front (zapełnienie całej struktury): 12520 [µs]
-Array_Add_Spec (dodanie pojedyńczego, losowego elementu do zapełnionej struktury): 7580 [ns]
-
-Array_Delete_Back (wyczyszczenie całej struktury): 13600 [µs]
-Array_Delete_Front (wyczyszczenie całej struktury): 13510 [µs]
-Array_Delete_Spec (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 7640 [ns]
-
-Array_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 5990 [ns]
-
-List_Add_Back (zapełnienie całej struktury): 170 [µs]
-List_Add_Front (zapełnienie całej struktury): 170 [µs]
-List_Add_Spec (dodanie pojedyńczego, losowego elementu): 13900 [ns]
-
-List_Delete_Back (wyczyszczenie całej struktury): 80 [µs]
-List_Delete_Front (wyczyszczenie całej struktury): 80 [µs]
-List_Delete_Spec (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 13430 [ns]
-
-List_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 13620 [ns]
-
-RBTree_Add (zapełnienie całej struktury): 605 [ns]
-RBTree_Delete (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 354 [ns]
-RBTree_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 140 [ns]
+RBTree_Add (zapełnienie całej struktury): 490 [ns]
+RBTree_Delete (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 367 [ns]
+RBTree_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 121 [ns]
 
 =============================================================
 
@@ -165,33 +99,66 @@ RBTree_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktur
 
 =============================================================
 
-Liczba elementów w strukturze: 7500
+Liczba elementów w strukturze: 7000
 Ilość wykonań akcji: 1000
 
-Heap_Add (zapełnienie całej struktury):  53700 [µs]
-Heap_Delete (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 36800 [ns]
-Heap_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 6600 [ns]
+Heap_Add (zapełnienie całej struktury): 45600 [µs]
+Heap_Delete (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 32200 [ns]
+Heap_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 5800 [ns]
 
-Array_Add_Back (zapełnienie całej struktury): 54400 [µs]
-Array_Add_Front (zapełnienie całej struktury): 54500 [µs]
-Array_Add_Spec (dodanie pojedyńczego, losowego elementu do zapełnionej struktury): 16200 [ns]
+Array_Add_Back (zapełnienie całej struktury): 46400 [µs]
+Array_Add_Front (zapełnienie całej struktury): 45700 [µs]
+Array_Add_Spec (dodanie pojedyńczego, losowego elementu do zapełnionej struktury): 14000 [ns]
 
-Array_Delete_Back (wyczyszczenie całej struktury): 62300 [µs]
-Array_Delete_Front (wyczyszczenie całej struktury): 61600 [µs]
-Array_Delete_Spec (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 17200 [ns]
+Array_Delete_Back (wyczyszczenie całej struktury): 52400 [µs]
+Array_Delete_Front (wyczyszczenie całej struktury): 52400 [µs]
+Array_Delete_Spec (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 14500 [ns]
 
-Array_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 13100 [ns]
+Array_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 11600 [ns]
 
-List_Add_Back (zapełnienie całej struktury): 300 [µs]
-List_Add_Front (zapełnienie całej struktury): 300 [µs]
-List_Add_Spec (dodanie pojedyńczego, losowego elementu): 36700 [ns]
+List_Add_Back (zapełnienie całej struktury): 280 [µs]
+List_Add_Front (zapełnienie całej struktury): 281 [µs]
+List_Add_Spec (dodanie pojedyńczego, losowego elementu): 29600 [ns]
 
-List_Delete_Back (wyczyszczenie całej struktury): 200 [µs]
-List_Delete_Front (wyczyszczenie całej struktury): 190 [µs]
-List_Delete_Spec (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 36000 [ns]
+List_Delete_Back (wyczyszczenie całej struktury): 140 [µs]
+List_Delete_Front (wyczyszczenie całej struktury): 142 [µs]
+List_Delete_Spec (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 27500 [ns]
 
-List_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 33600 [ns]
+List_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 28000 [ns]
 
-RBTree_Add (zapełnienie całej struktury): 1402 [ns]
-RBTree_Delete (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 515 [ns]
+RBTree_Add (zapełnienie całej struktury): 1200 [ns]
+RBTree_Delete (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 602 [ns]
 RBTree_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 169 [ns]
+
+=============================================================
+
+Liczba elementów w strukturze: 10000
+Ilość wykonań akcji: 1000
+
+Heap_Add (zapełnienie całej struktury): 96000 [µs]
+Heap_Delete (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 48000 [ns]
+Heap_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 7600 [ns]
+
+Array_Add_Back (zapełnienie całej struktury): 79000 [µs]
+Array_Add_Front (zapełnienie całej struktury): 77000 [µs]
+Array_Add_Spec (dodanie pojedyńczego, losowego elementu do zapełnionej struktury): 20000 [ns]
+
+Array_Delete_Back (wyczyszczenie całej struktury): 92000 [µs]
+Array_Delete_Front (wyczyszczenie całej struktury): 93000 [µs]
+Array_Delete_Spec (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 20000 [ns]
+
+Array_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 15000 [ns]
+
+List_Add_Back (zapełnienie całej struktury): 480 [µs]
+List_Add_Front (zapełnienie całej struktury): 480 [µs]
+List_Add_Spec (dodanie pojedyńczego, losowego elementu): 53790 [ns]
+
+List_Delete_Back (wyczyszczenie całej struktury): 240 [µs]
+List_Delete_Front (wyczyszczenie całej struktury): 250 [µs]
+List_Delete_Spec (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 42230 [ns]
+
+List_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 42000 [ns]
+
+RBTree_Add (zapełnienie całej struktury): 1870 [ns]
+RBTree_Delete (usunięcie pojedyńczego, losowego elementu z zapełnionej struktury): 800 [ns]
+RBTree_Find (wyszukanie pojedyńczego, losowego elementu z zapełnionej struktury): 173 [ns]
